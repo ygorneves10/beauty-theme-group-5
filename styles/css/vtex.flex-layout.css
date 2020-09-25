@@ -35,3 +35,18 @@
 .flexRowContent--qtyBuybtn {
     align-items: center;
 }
+
+@media(min-width:768px) {
+    .flexRow--product-description {
+        width: 90%;
+        margin: 40px auto;
+    }
+}
+
+.flexRow--product-description {
+    margin: 40px auto;
+}
+
+.flexRow--shelf-product {
+    margin-bottom: 40px;
+}

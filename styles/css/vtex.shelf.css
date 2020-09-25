@@ -1,0 +1,12 @@
+.arrow {
+    margin: 0;
+    padding: 10px;
+    border: solid #eee thin;
+    border-radius: 50%;
+}
+
+.caretIcon--shelf-product {
+    color: #555;
+    width: 20px;
+    height: 20px;
+}
