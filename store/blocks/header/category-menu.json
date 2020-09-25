@@ -3,107 +3,7 @@
     "props": {
       "experimentalOptimizeRendering": true
     },
-    "children": [
-      "menu-item#makeup",      
-      "menu-item#hair",
-      "menu-item#perfume"
-    ]
-  },
-  "menu-item#category-apparel": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
-      }
-    }
+    "children": ["menu-item#makeup", "menu-item#hair", "menu-item#perfume"]
   },
   "menu-item#makeup": {
     "props": {
@@ -119,17 +19,13 @@
         "text": "Makeup"
       }
     },
-    "blocks": [
-      "vtex.menu@2.x:submenu#makeup"
-    ]
+    "blocks": ["vtex.menu@2.x:submenu#makeup"]
   },
   "vtex.menu@2.x:submenu#makeup": {
     "props": {
       "width": "100%"
     },
-    "children": [
-      "flex-layout.row#menu-makeup"
-    ]
+    "children": ["flex-layout.row#menu-makeup"]
   },
   "flex-layout.row#menu-makeup": {
     "children": [
@@ -138,14 +34,10 @@
     ]
   },
   "flex-layout.col#menu-makeup-1": {
-    "children": [
-      "vtex.menu@2.x:menu#makeup"
-    ]
+    "children": ["vtex.menu@2.x:menu#makeup"]
   },
   "flex-layout.col#menu-makeup-2": {
-    "children": [
-      "info-card#category"
-    ]
+    "children": ["image#category-home-makeup"]
   },
   "vtex.menu@2.x:menu#makeup": {
     "props": {
@@ -231,33 +123,22 @@
         "text": "Hair"
       }
     },
-    "blocks": [
-      "vtex.menu@2.x:submenu#hair"
-    ]
+    "blocks": ["vtex.menu@2.x:submenu#hair"]
   },
   "vtex.menu@2.x:submenu#hair": {
     "props": {
       "width": "100%"
     },
-    "children": [
-      "flex-layout.row#menu-hair"
-    ]
+    "children": ["flex-layout.row#menu-hair"]
   },
   "flex-layout.row#menu-hair": {
-    "children": [
-      "flex-layout.col#menu-hair-1",
-      "flex-layout.col#menu-hair-2"
-    ]
+    "children": ["flex-layout.col#menu-hair-1", "flex-layout.col#menu-hair-2"]
   },
   "flex-layout.col#menu-hair-1": {
-    "children": [
-      "vtex.menu@2.x:menu#hair"
-    ]
+    "children": ["vtex.menu@2.x:menu#hair"]
   },
   "flex-layout.col#menu-hair-2": {
-    "children": [
-      "info-card#category"
-    ]
+    "children": ["image#category-home-hair"]
   },
   "vtex.menu@2.x:menu#hair": {
     "props": {
@@ -328,17 +209,13 @@
         "text": "Perfume"
       }
     },
-    "blocks": [
-      "vtex.menu@2.x:submenu#perfume"
-    ]
+    "blocks": ["vtex.menu@2.x:submenu#perfume"]
   },
   "vtex.menu@2.x:submenu#perfume": {
     "props": {
       "width": "100%"
     },
-    "children": [
-      "flex-layout.row#menu-perfume"
-    ]
+    "children": ["flex-layout.row#menu-perfume"]
   },
   "flex-layout.row#menu-perfume": {
     "children": [
@@ -347,14 +224,10 @@
     ]
   },
   "flex-layout.col#menu-perfume-1": {
-    "children": [
-      "vtex.menu@2.x:menu#perfume"
-    ]
+    "children": ["vtex.menu@2.x:menu#perfume"]
   },
   "flex-layout.col#menu-perfume-2": {
-    "children": [
-      "info-card#category"
-    ]
+    "children": ["image#category-home-perfume"]
   },
   "vtex.menu@2.x:menu#perfume": {
     "props": {
@@ -423,6 +296,27 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
+    }
+  },
+
+  "image#category-home-makeup": {
+    "title": "img-categorie-1",
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+
+  "image#category-home-hair": {
+    "title": "img-categorie-1",
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+
+  "image#category-home-perfume": {
+    "title": "img-categorie-1",
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
     }
   }
 }

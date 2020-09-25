@@ -55,9 +55,9 @@
     padding: 0;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) .logoLink{
+/* :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) .logoLink{
     width: 70vw;
-}
+} */
 
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
     border-radius: 0;

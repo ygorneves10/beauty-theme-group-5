@@ -42,13 +42,18 @@
 .flexRowContent--main-header-mobile{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin: 15px 5px;
+    background-color: #ffffff;
+
 }
 .flexRowContent--main-header-desktop{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background-color: #ffffff;
+
 }
 .flexRowContent--main-header-mobile :global(.vtex-minicart-2-x-minicartWrapperContainer){
     align-self: flex-end;
@@ -67,5 +72,11 @@
 .flexRowContent--row-category-header{
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
-    margin: 15px 0;
+    margin: 15px 5px;
+}
+
+.flexCol--header-mob-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
