@@ -160,9 +160,9 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#makeup",
-      "menu-item#hair",
-      "menu-item#perfume"
+      "menu-item#mobile-makeup",
+      "menu-item#mobile-hair",
+      "menu-item#mobile-perfume"
     ],
     "props": {
       "orientation": "vertical",

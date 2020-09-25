@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#stories",
       "list-context.image-list#banner-home",
       "responsive-layout.desktop#categories-home",
       "responsive-layout.mobile#categories-home",
@@ -9,11 +8,6 @@
       "flex-layout.row#shelf-home",
       "flex-layout.row#banner-full-home-2",
       "flex-layout.row#shelf-home-2"
-    ]
-  },
-  "flex-layout.row#stories": {
-    "children": [
-      "stories"
     ]
   },
   "list-context.image-list#banner-home": {

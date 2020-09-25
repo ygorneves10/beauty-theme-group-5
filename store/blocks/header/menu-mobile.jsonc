@@ -1,0 +1,89 @@
+{
+    "menu-item#mobile-makeup": {
+        "props": {
+            "id": "menu-item-menu-makeup",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "makeup",
+                "href": "/",
+                "tagTitle": "makeup",
+                "text": "MAKE UP"
+            },
+            "blockClass": "menu-title"
+        },
+        "blocks": [
+            "submenu.accordion#mobile-makeup"
+        ]
+    },
+    "submenu.accordion#mobile-makeup": {
+        "children": [
+            "menu#mobile-makeup"
+        ]
+    },
+    "menu#mobile-makeup": {
+        "props": {
+            "categoryId": 2,
+            "orientation": "vertical",
+            "blockClass": "mobile-makeup"
+        }
+    },
+    "menu-item#mobile-hair": {
+        "props": {
+            "id": "menu-item-menu-hair",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "hair",
+                "href": "/",
+                "tagTitle": "hair",
+                "text": "HAIR"
+            },
+            "blockClass": "menu-title"
+        },
+        "blocks": [
+            "submenu.accordion#mobile-hair"
+        ]
+    },
+    "submenu.accordion#mobile-hair": {
+        "children": [
+            "menu#mobile-hair"
+        ]
+    },
+    "menu#mobile-hair": {
+        "props": {
+            "categoryId": 3,
+            "orientation": "vertical",
+            "blockClass": "mobile-hair"
+        }
+    },
+    "menu-item#mobile-perfume": {
+        "props": {
+            "id": "menu-item-menu-perfume",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "perfume",
+                "href": "/",
+                "tagTitle": "perfume",
+                "text": "PERFUME"
+            },
+            "blockClass": "menu-title"
+        },
+        "blocks": [
+            "submenu.accordion#mobile-perfume"
+        ]
+    },
+    "submenu.accordion#mobile-perfume": {
+        "children": [
+            "menu#mobile-perfume"
+        ]
+    },
+    "menu#mobile-perfume": {
+        "props": {
+            "categoryId": 1,
+            "orientation": "vertical",
+            "blockClass": "mobile-perfume"
+        }
+    }
+}
