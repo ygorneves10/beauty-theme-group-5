@@ -33,5 +33,15 @@
       "product-summary-price",
       "add-to-cart-button"
     ]
+  },
+  // "product-summary-image": {
+  //   "props": {
+  //     "height": 280
+  //   }
+  // },
+  "add-to-cart-button": {
+    "props": {
+      "text": "COMPRAR"
+    }
   }
 }

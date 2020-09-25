@@ -84,7 +84,7 @@
       "infinite": true,
       "showNavigationArrows": "always",
       "showPaginationDots": "never",
-      "blockClass": "shelf-home"
+      "blockClass": "shelf"
     }
   },
   "flex-layout.row#banner-full-home-1": {

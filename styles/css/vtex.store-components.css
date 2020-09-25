@@ -2,8 +2,13 @@
     outline: none !important;
 }
 
+:global(.vtex-button) {
+    border-radius: 0;
+}
+
 .container {
     max-width: 1366px;
+    margin: 0 auto;
 }
 
 .infoCardImageContainer--image-full {
@@ -38,4 +43,8 @@
 
 .productBrandName {
     color: #9b1783;
+}
+
+.frameAround, .skuSelectorInternalBox {
+    border-radius: 0;
 }
