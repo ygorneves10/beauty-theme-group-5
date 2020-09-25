@@ -1,0 +1,21 @@
+﻿.flexRow--productMain {
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+.flexRow--productMain :global(.vtex-button) {
+	height: 50px;
+	border-radius: 0;
+	background-color: #9b1783;
+	border: 0;
+	border-bottom: 2px solid #640a54;
+}
+
+.flexRow--productMain :global(.vtex-button):hover {
+	background-color: #d535b7;
+	border: 2px solid transparent;
+}
+
+.flexRowContent--qtyBuybtn {
+	align-items: center;
+}
