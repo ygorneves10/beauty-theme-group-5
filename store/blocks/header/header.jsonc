@@ -13,8 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#4-desktop",
-      "flex-layout.row#5-desktop"
+      "sticky-layout#4-desktop"
     ]
   },
   "sticky-layout#4-desktop": {
@@ -22,7 +21,8 @@
       "blockClass": "sticky-header-desk"
     },
     "children": [
-      "flex-layout.row#4-desktop"
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#5-desktop"
     ]
   },
   "flex-layout.row#4-desktop": {
@@ -123,7 +123,6 @@
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
@@ -139,7 +138,8 @@
   },
   "flex-layout.col#col-mob-header-2": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "col-mob-header-2"
     },
     "children": [
       "minicart.v2"

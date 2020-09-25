@@ -18,7 +18,7 @@
       "height": 720,
       "images": [
         {
-          "image": "assets/home01.jpg",
+          "image": "assets/home03.jpg",
           "mobileImage": ""
         },
         {
@@ -61,7 +61,7 @@
   },
   "rich-text#shelf-home-title": {
     "props": {
-      "text": "VTEX Store Framework",
+      "text": "TOP SALE",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-3"
@@ -102,6 +102,7 @@
   "info-card#banner-full-home-1": {
     "title": "banner-full-home",
     "props": {
+      "imageUrl": "assets/home01.jpg",
       "callToActionMode": "none",
       "blockClass": "image-full"
     }
@@ -117,6 +118,7 @@
   "info-card#banner-full-home-2": {
     "title": "banner-full-home",
     "props": {
+      "imageUrl": "assets/home04.jpg",
       "callToActionMode": "none",
       "blockClass": "image-full"
     }
@@ -140,7 +142,7 @@
   },
   "rich-text#shelf-home-title-2": {
     "props": {
-      "text": "VTEX Store Framework",
+      "text": "NEW",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-3"
@@ -154,7 +156,7 @@
       "slider-layout#shelf"
     ],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByReleaseDateDESC"
     }
   }
 }

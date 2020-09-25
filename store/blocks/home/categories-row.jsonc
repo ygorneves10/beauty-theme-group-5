@@ -52,7 +52,7 @@
     "rich-text#categories-home-1": {
         "title": "text-categorie-1",
         "props": {
-            "text": "categorie 1",
+            "text": "Make",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "categories-home"
@@ -73,7 +73,7 @@
     "rich-text#categories-home-2": {
         "title": "text-categorie-2",
         "props": {
-            "text": "categorie 2",
+            "text": "Hair",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "categories-home"
@@ -94,7 +94,7 @@
     "rich-text#categories-home-3": {
         "title": "text-categorie-3",
         "props": {
-            "text": "categorie 3",
+            "text": "Perfume Men",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "categories-home"
@@ -115,7 +115,7 @@
     "rich-text#categories-home-4": {
         "title": "text-categorie-4",
         "props": {
-            "text": "categorie 4",
+            "text": "Perfume Women",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "categories-home"

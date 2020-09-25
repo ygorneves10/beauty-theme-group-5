@@ -21,7 +21,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 8px 16px;
-}   
+}
 
 .footerLayout :global(.vtex-menu-2-x-styledLinkContainer) {
     margin: 0px 16px 0px 0px;
@@ -36,6 +36,7 @@
 }
 
 .row--payments {
+    background-color: #F1F1F1;
     text-align: center;
 }
 
