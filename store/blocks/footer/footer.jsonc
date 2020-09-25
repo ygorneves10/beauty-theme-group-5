@@ -1,0 +1,255 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "footer-row#1-desktop",
+      "footer-row#3-desktop",
+      "footer-row#2-desktop",
+      "footer-row#4-desktop"
+    ]
+  },
+  "footer-row#1-desktop": {
+    "children": [
+      "flex-layout.row#1-desktop"
+    ],
+    "props": {
+      "blockClass": [
+        "menu",
+        "color-footer"
+      ]
+    }
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "flex-layout.col#1-desktop-1",
+      "flex-layout.col#1-desktop-2",
+      "flex-layout.col#1-desktop-3",
+      "flex-layout.col#1-desktop-4",
+      "flex-layout.col#1-desktop-5"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menu"
+    }
+  },
+  "flex-layout.col#1-desktop-1": {
+    "children": [
+      "rich-text#footer-conta",
+      "vtex.menu@2.x:menu#footer-conta"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#1-desktop-2": {
+    "children": [
+      "rich-text#footer-servico-consumidor",
+      "vtex.menu@2.x:menu#footer-servico-consumidor"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#1-desktop-3": {
+    "children": [
+      "rich-text#footer-legal",
+      "vtex.menu@2.x:menu#footer-legal"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#1-desktop-4": {
+    "children": [
+      "rich-text#footer-navegacao",
+      "vtex.menu@2.x:menu#footer-navegacao"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#1-desktop-5": {
+    "children": [
+      "social-networks",
+      "rich-text#footer-contactanos"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "showInColor": true
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "pinterest",
+          "url": "https://twitter.com/vtexonline"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+  "rich-text#footer-contactanos": {
+    "props": {
+      "text": "[@siga agente](/sign-us)",
+      "blockClass": "footer-contactanos"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "blockClass": "footer-newsletter",
+      "label": "¡Oferta semanales!",
+      "placeholder": "Tu correo electrónico",
+      "confirmationTitle": "Bienvenido",
+      "submit": ""
+    }
+  },
+  "footer-row#2-desktop": {
+    "children": [
+      "image#footer-copyright",
+      "rich-text#footer-copyright",
+      "image#sello-ccs"
+    ],
+    "props": {
+      "blockClass": [
+        "",
+        "color-footer"
+      ]
+    }
+  },
+  "image#footer-copyright": {
+    "props": {
+      "src": "/arquivos/logo_footer.png",
+      "maxHeight": "65px",
+      "maxWidth": "65px",
+      "blockClass": "footer-copyright"
+    }
+  },
+  "image#sello-ccs": {
+    "props": {
+      "src": "/arquivos/sello-ccs.png",
+      "maxWidth": "90px",
+      "blockClass": "sello-ccs"
+    }
+  },
+  "rich-text#footer-copyright": {
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+      "blockClass": "footer-copyright"
+    }
+  },
+  "footer-row#3-desktop": {
+    "children": [
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": [
+        "payments"
+      ]
+    }
+  },
+  "footer-row#4-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": [
+        "last",
+        "color-footer"
+      ]
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "blockClass": "footer"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "footer-row#1-mobile"
+    ]
+  },
+  "footer-row#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "",
+        "color-footer"
+      ]
+    }
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "flex-layout.col#1-mobile-1",
+      "flex-layout.col#1-mobile-2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menu"
+    }
+  },
+  "flex-layout.col#1-mobile-1": {
+    "children": [
+      "rich-text#footer-contactanos",
+      "menu-item#footer-legal-mobile",
+      "menu-item#footer-servico-consumidor-mobile",
+      "menu-item#footer-conta-mobile",
+      "menu-item#footer-navegacao-mobile"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#1-mobile-2": {
+    "children": [
+      "image#footer-copyright",
+      "social-networks",
+      "image#sello-ccs",
+      "flex-layout.row#logo-mobile",
+      "rich-text#footer-copyright"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "blockClass": "mobile-row-footer"
+    }
+  },
+  "flex-layout.row#logo-mobile": {
+    "children": [],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "logos"
+    }
+  }
+}

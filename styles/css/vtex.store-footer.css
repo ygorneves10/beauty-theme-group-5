@@ -1,0 +1,59 @@
+.footerLayout {
+    background-color: #F1F1F1;
+    margin-top: 20px;
+    padding: 0px 16px;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu) {
+    width: 100%;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-wrapper--title-menu-footer) {
+    font-weight: 600;
+}
+
+.row--color-footer {
+    background: transparent;
+}
+
+.row {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px 16px;
+}   
+
+.footerLayout :global(.vtex-menu-2-x-styledLinkContainer) {
+    margin: 0px 16px 0px 0px;
+}
+
+.socialNetworkWrapper {
+    margin-top: 16px;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-link--footer-contactanos) {
+    color: #9b1783;
+}
+
+.row--payments {
+    text-align: center;
+}
+
+.acceptedPaymentMethodContainer {
+    margin: 0 auto;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-wrapper--footer-copyright) {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-container--footer) {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-paragraph--footer) {
+    font-size: 12px;
+}
