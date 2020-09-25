@@ -18,7 +18,11 @@
       "height": 720,
       "images": [
         {
-          "image": "",
+          "image": "assets/home01.jpg",
+          "mobileImage": ""
+        },
+        {
+          "image": "assets/home02.jpg",
           "mobileImage": ""
         }
       ]
