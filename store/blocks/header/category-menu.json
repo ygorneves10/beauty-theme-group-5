@@ -1,0 +1,428 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#makeup",      
+      "menu-item#hair",
+      "menu-item#perfume"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel & Accessories",
+        "text": "Apparel & Accessories"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#makeup": {
+    "props": {
+      "id": "menu-item-custom-makeup",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/makeup",
+        "noFollow": true,
+        "tagTitle": "Makeup",
+        "text": "Makeup"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#makeup"
+    ]
+  },
+  "vtex.menu@2.x:submenu#makeup": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-makeup"
+    ]
+  },
+  "flex-layout.row#menu-makeup": {
+    "children": [
+      "flex-layout.col#menu-makeup-1",
+      "flex-layout.col#menu-makeup-2"
+    ]
+  },
+  "flex-layout.col#menu-makeup-1": {
+    "children": [
+      "vtex.menu@2.x:menu#makeup"
+    ]
+  },
+  "flex-layout.col#menu-makeup-2": {
+    "children": [
+      "info-card#category"
+    ]
+  },
+  "vtex.menu@2.x:menu#makeup": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#make-eye",
+      "menu-item#make-lip",
+      "menu-item#make-face"
+    ]
+  },
+  "menu-item#make-eye": {
+    "props": {
+      "id": "menu-item-make-eye",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "makeup/eye",
+        "noFollow": true,
+        "tagTitle": "Eye",
+        "text": "Eye"
+      }
+    }
+  },
+  "menu-item#make-lip": {
+    "props": {
+      "id": "menu-item-make-lip",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "makeup/lip",
+        "noFollow": true,
+        "tagTitle": "Lip",
+        "text": "Lip"
+      }
+    }
+  },
+  "menu-item#make-face": {
+    "props": {
+      "id": "menu-item-make-face",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "makeup/face",
+        "noFollow": true,
+        "tagTitle": "Face",
+        "text": "Face"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#hair": {
+    "props": {
+      "id": "menu-item-custom-hair",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hair",
+        "noFollow": true,
+        "tagTitle": "Hair",
+        "text": "Hair"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#hair"
+    ]
+  },
+  "vtex.menu@2.x:submenu#hair": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-hair"
+    ]
+  },
+  "flex-layout.row#menu-hair": {
+    "children": [
+      "flex-layout.col#menu-hair-1",
+      "flex-layout.col#menu-hair-2"
+    ]
+  },
+  "flex-layout.col#menu-hair-1": {
+    "children": [
+      "vtex.menu@2.x:menu#hair"
+    ]
+  },
+  "flex-layout.col#menu-hair-2": {
+    "children": [
+      "info-card#category"
+    ]
+  },
+  "vtex.menu@2.x:menu#hair": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hair-shampoo",
+      "menu-item#hair-cream",
+      "menu-item#hair-styling"
+    ]
+  },
+  "menu-item#hair-shampoo": {
+    "props": {
+      "id": "menu-item-hair-shampoo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "hair/shampoo",
+        "noFollow": true,
+        "tagTitle": "Shampoo",
+        "text": "Shampoo"
+      }
+    }
+  },
+  "menu-item#hair-cream": {
+    "props": {
+      "id": "menu-item-hair-cream",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "hair/cream",
+        "noFollow": true,
+        "tagTitle": "Cream",
+        "text": "Cream"
+      }
+    }
+  },
+  "menu-item#hair-styling": {
+    "props": {
+      "id": "menu-item-hair-styling",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "hair/styling",
+        "noFollow": true,
+        "tagTitle": "Styling",
+        "text": "Styling"
+      }
+    }
+  },
+  "menu-item#perfume": {
+    "props": {
+      "id": "menu-item-custom-hair",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perfume",
+        "noFollow": true,
+        "tagTitle": "Perfume",
+        "text": "Perfume"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#perfume"
+    ]
+  },
+  "vtex.menu@2.x:submenu#perfume": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-perfume"
+    ]
+  },
+  "flex-layout.row#menu-perfume": {
+    "children": [
+      "flex-layout.col#menu-perfume-1",
+      "flex-layout.col#menu-perfume-2"
+    ]
+  },
+  "flex-layout.col#menu-perfume-1": {
+    "children": [
+      "vtex.menu@2.x:menu#perfume"
+    ]
+  },
+  "flex-layout.col#menu-perfume-2": {
+    "children": [
+      "info-card#category"
+    ]
+  },
+  "vtex.menu@2.x:menu#perfume": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#perfume-men",
+      "menu-item#perfume-unisex",
+      "menu-item#perfume-women"
+    ]
+  },
+  "menu-item#perfume-men": {
+    "props": {
+      "id": "menu-item-perfume-men",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "perfume/men",
+        "noFollow": true,
+        "tagTitle": "Shampoo",
+        "text": "Shampoo"
+      }
+    }
+  },
+  "menu-item#perfume-unisex": {
+    "props": {
+      "id": "menu-item-perfume-unisex",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "perfume/unisex",
+        "noFollow": true,
+        "tagTitle": "Unisex",
+        "text": "Unisex"
+      }
+    }
+  },
+  "menu-item#perfume-women": {
+    "props": {
+      "id": "menu-item-perfume-women",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "perfume/women",
+        "noFollow": true,
+        "tagTitle": "Women",
+        "text": "Women"
+      }
+    }
+  },
+
+  "info-card#category": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  }
+}
