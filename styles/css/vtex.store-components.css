@@ -1,0 +1,8 @@
+:global(.vtex-search-result-3-x-gallery){
+  padding-left: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+  min-width: 15vw;
+  margin-right: 3rem;
+}
