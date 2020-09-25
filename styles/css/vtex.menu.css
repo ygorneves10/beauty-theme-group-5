@@ -15,6 +15,12 @@
   }
 }
 
+.styledLinkContent:hover{
+    font-weight: bold;
+    transition: .3s all ease-in-out;
+    
+}
+
 .styledLinkContent {
   text-transform: uppercase;
 }
