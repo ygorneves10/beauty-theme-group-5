@@ -7,9 +7,6 @@
   },
   "header-layout.desktop": {
     "children": [
-      // "flex-layout.row#1-desktop",
-      // "flex-layout.row#2-desktop",
-      // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#5-desktop"
     ]
@@ -22,7 +19,7 @@
   },
   "flex-layout.row#4-desktop": {
     "props": {
-      "blockClass": "main-header",
+      "blockClass": ["main-header", "main-header-desktop"],
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -30,18 +27,40 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "search-bar",
-      // olá/conta/pedidos
-      "login",
-      "minicart.v2"
+      "flex-layout.col#col-header-1",
+      "flex-layout.col#col-header-2",
+      "flex-layout.col#col-header-3"
+      // "search-bar",
+      // // olá/conta/pedidos  
+      // "login",
+      // "minicart.v2"
     ]
+  },
+ 
+  "flex-layout.col#col-header-1": {
+    "children": ["flex-layout.col#logo-desktop"],
+    "props": {
+      "blockClass": "col-header-logo"
+    }
+  },
+  "flex-layout.col#col-header-2": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "col-header-search"
+    }
+  },
+  "flex-layout.col#col-header-3": {
+    "children": ["login",
+      "minicart.v2"],
+    "props": {
+      "blockClass": "col-header-login-cart"
+    }
   },
   "flex-layout.row#5-desktop": {
     "children": ["flex-layout.col#category-menu"],
     "props": {
       "fullWidth": "true",
-      "blockClass": "row-2"
+      "blockClass": "row-category-header"
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -65,7 +84,10 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile", "flex-layout.row#2-mobile"]
+    "children": [
+      // "sticky-layout#1-mobile",
+      "flex-layout.row#1-mobile",
+       "flex-layout.row#2-mobile"]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
@@ -74,7 +96,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "login",
       "minicart.v2"
     ],
     "props": {
@@ -84,11 +105,9 @@
       "fullWidth": true
     }
   },
-
   "flex-layout.row#2-mobile": {
     "children": ["search-bar"],
     "props": {
-      // "fullWidth": "true",
       "blockClass": "row-search-mobile"
     }
   },
@@ -98,10 +117,10 @@
 
   "menu#drawer": {
     "children": [
-      // "menu-item#category-apparel",
-      // "menu-item#category-home",
+      // "login",
       "menu-item#makeup",      
-      "menu-item#hair"      
+      "menu-item#hair",
+      "menu-item#perfume"      
 
     ],
     "props": {
