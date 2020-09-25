@@ -35,3 +35,8 @@
 .flexRowContent--qtyBuybtn {
     align-items: center;
 }
+
+.flexCol--filterCol {
+    min-width: 15vw;
+    margin-right: 3rem;
+}

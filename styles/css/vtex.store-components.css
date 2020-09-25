@@ -2,11 +2,6 @@
   padding-left: 0;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
-  min-width: 15vw;
-  margin-right: 3rem;
-}
-
 :focus {
     outline: none !important;
 }
