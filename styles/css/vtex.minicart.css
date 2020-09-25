@@ -1,3 +1,11 @@
-.minicartIconContainer{
-    color: #9b1783 !important;
+.minicartIconContainer {
+    color: #3f3f40 !important;
+}
+
+.openIconContainer, .openIconContainer :global(.vtex-button__label) {
+    padding: 0;
+}
+
+.overlay--visible {
+    background-color: #be93b7 !important;
 }

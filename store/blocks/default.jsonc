@@ -41,7 +41,7 @@
   // },
   "add-to-cart-button": {
     "props": {
-      "text": "COMPRAR"
+      "text": "Buy"
     }
   }
 }

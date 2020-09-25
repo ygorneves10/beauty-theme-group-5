@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -15,11 +21,16 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
   },
   "flex-layout.row#4-desktop": {
     "props": {
-      "blockClass": ["main-header", "main-header-desktop"],
+      "blockClass": [
+        "main-header",
+        "main-header-desktop"
+      ],
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -30,34 +41,37 @@
       "flex-layout.col#col-header-1",
       "flex-layout.col#col-header-2",
       "flex-layout.col#col-header-3"
-      // "search-bar",
-      // // olá/conta/pedidos  
-      // "login",
-      // "minicart.v2"
     ]
   },
- 
   "flex-layout.col#col-header-1": {
-    "children": ["flex-layout.col#logo-desktop"],
+    "children": [
+      "flex-layout.col#logo-desktop"
+    ],
     "props": {
       "blockClass": "col-header-logo"
     }
   },
   "flex-layout.col#col-header-2": {
-    "children": ["search-bar"],
+    "children": [
+      "search-bar"
+    ],
     "props": {
       "blockClass": "col-header-search"
     }
   },
   "flex-layout.col#col-header-3": {
-    "children": ["login",
-      "minicart.v2"],
+    "children": [
+      "login",
+      "minicart.v2"
+    ],
     "props": {
       "blockClass": "col-header-login-cart"
     }
   },
   "flex-layout.row#5-desktop": {
-    "children": ["flex-layout.col#category-menu"],
+    "children": [
+      "flex-layout.col#category-menu"
+    ],
     "props": {
       "fullWidth": "true",
       "blockClass": "row-category-header"
@@ -67,13 +81,17 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
   "logo#desktop": {
     "props": {
@@ -87,10 +105,13 @@
     "children": [
       // "sticky-layout#1-mobile",
       "flex-layout.row#1-mobile",
-       "flex-layout.row#2-mobile"]
+      "flex-layout.row#2-mobile"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -106,29 +127,30 @@
     }
   },
   "flex-layout.row#2-mobile": {
-    "children": ["search-bar"],
+    "children": [
+      "search-bar"
+    ],
     "props": {
       "blockClass": "row-search-mobile"
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
       // "login",
-      "menu-item#makeup",      
+      "menu-item#makeup",
       "menu-item#hair",
-      "menu-item#perfume"      
-
+      "menu-item#perfume"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "menu-drawer"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
