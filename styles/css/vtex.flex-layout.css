@@ -50,3 +50,38 @@
 .flexRow--shelf-product {
     margin-bottom: 40px;
 }
+
+/* HEADER */
+
+.flexRowContent--main-header-mobile {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.flexRowContent--main-header-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.flexRowContent--main-header-mobile :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    align-self: flex-end;
+}
+
+.flexCol--col-header-login-cart {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColChild--col-header-login-cart {
+    display: flex;
+    height: auto !important;
+}
+
+.flexRowContent--row-category-header {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    margin: 15px 0;
+}

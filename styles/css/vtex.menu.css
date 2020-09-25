@@ -1,0 +1,14 @@
+@media(min-width: 1024px){
+    .menuContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuItem{
+        margin: 0 50px;
+    }
+
+    .styledLinkContent{
+        text-transform: uppercase;
+    }
+}
