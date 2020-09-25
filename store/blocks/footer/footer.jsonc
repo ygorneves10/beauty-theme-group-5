@@ -112,7 +112,8 @@
           "name": "pinterest",
           "url": "https://twitter.com/vtexonline"
         }
-      ]
+      ],
+      "showInColor": true
     }
   },
   "rich-text#footer-contactanos": {
