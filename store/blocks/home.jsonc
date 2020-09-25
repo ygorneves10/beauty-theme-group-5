@@ -1,15 +1,85 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "list-context.image-list#banner-home",
+      "flex-layout.row#shelf-home"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  "list-context.image-list#banner-home": {
+    "children": [
+      "slider-layout#banner-home"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://cdn.linets.tech/data/1BANNER_2020/03_MARZO/KDS/2_al_8/kds_banner_dos.jpg",
+          "mobileImage": "https://cdn.linets.tech/data/1BANNER_2020/03_MARZO/KDS/2_al_8/kds_banner_m_dos.jpg"
+        },
+        {
+          "image": "https://cdn.linets.tech/data/1BANNER_2020/03_MARZO/KDS/2_al_8/kds_banner_uno_final.jpg",
+          "mobileImage": "https://cdn.linets.tech/data/1BANNER_2020/03_MARZO/KDS/2_al_8/kds_banner_m_uno.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-home"
+    }
+  },
+  "flex-layout.row#shelf-home": {
+    "children": [
+      "flex-layout.col#shelf-home"
+    ]
+  },
+  "flex-layout.col#shelf-home": {
+    "children": [
+      "rich-text#shelf-home-title",
+      "list-context.product-list#shelf-home"
+    ]
+  },
+  "rich-text#shelf-home-title": {
+    "props": {
       "text": "VTEX Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-3"
+    }
+  },
+  "list-context.product-list#shelf-home": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "shelf-home"
     }
   }
 }
