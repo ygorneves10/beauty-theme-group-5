@@ -45,13 +45,18 @@
 .flexRowContent--main-header-mobile{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin: 15px 5px;
+    background-color: #ffffff;
+
 }
 .flexRowContent--main-header-desktop{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background-color: #ffffff;
+
 }
 .flexRowContent--main-header-mobile :global(.vtex-minicart-2-x-minicartWrapperContainer){
     align-self: flex-end;
@@ -75,4 +80,11 @@
 
 :global(.vtex-product-summary-2-x-containerNormal) {
     padding: 0 .75rem;
+    margin: 15px 5px;
+}
+
+.flexCol--header-mob-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

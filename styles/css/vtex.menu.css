@@ -1,16 +1,26 @@
-@media(min-width: 1024px){
-    .menuContainer{
-        display: flex;
-        justify-content: center;
-    }
+@media (min-width: 1024px) {
+  .menuContainer {
+    display: flex;
+    justify-content: center;
+  }
 
-    .menuItem{
-        margin: 0 50px;
-    }
+  .menuItem {
+    margin: 0 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .menuItem {
+    margin: 10px 0;
+    /* border-bottom: 1px solid #9b9b9b; */
+  }
+}
 
-    .styledLinkContent:hover{
-        font-weight: bold;
-        transition: .3s all ease-in-out;
-        
-    }
+.styledLinkContent:hover{
+    font-weight: bold;
+    transition: .3s all ease-in-out;
+    
+}
+
+.styledLinkContent {
+  text-transform: uppercase;
 }
