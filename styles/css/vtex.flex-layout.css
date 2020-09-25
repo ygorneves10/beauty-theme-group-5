@@ -36,7 +36,10 @@
     align-items: center;
 }
 
-
+.flexCol--filterCol {
+    min-width: 15vw;
+    margin-right: 3rem;
+}
 /* HEADER */
 
 .flexRowContent--main-header-mobile{
@@ -68,4 +71,8 @@
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
     margin: 15px 0;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal) {
+    padding: 0 .75rem;
 }

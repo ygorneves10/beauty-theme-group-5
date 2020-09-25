@@ -1,0 +1,344 @@
+{
+  "vtex.menu@2.x:menu#footer-conta": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-conta",
+      "menu-item#footer-minha-compra",
+      "menu-item#footer-historial-compras"
+    ]
+  },
+  "rich-text#footer-conta": {
+    "props": {
+      "text": "Conta",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "menu-item#footer-conta": {
+    "props": {
+      "id": "menu-item-footer-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Perfil",
+        "text": "Perfil"
+      }
+    }
+  },
+  "menu-item#footer-minha-compra": {
+    "props": {
+      "id": "menu-item-footer-minha-compra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Onde comprar",
+        "text": "Onde comprar"
+      }
+    }
+  },
+  "menu-item#footer-historial-compras": {
+    "props": {
+      "id": "menu-item-footer-historial-compras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Historia das Compras",
+        "text": "Historia das Compras"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-servico-consumidor": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-centro-ajuda",
+      "menu-item#footer-como-comprar",
+      "menu-item#footer-meus-pedidos"
+    ]
+  },
+  "rich-text#footer-servico-consumidor": {
+    "props": {
+      "text": "Servicos",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "menu-item#footer-centro-ajuda": {
+    "props": {
+      "id": "menu-item-footer-centro-ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/centro-de-ajuda",
+        "noFollow": true,
+        "tagTitle": "Centro de Ajuda",
+        "text": "Centro de Ajuda"
+      }
+    }
+  },
+  "menu-item#footer-como-comprar": {
+    "props": {
+      "id": "menu-item-footer-como-comprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/centro-de-ajuda#como-comprar",
+        "noFollow": true,
+        "tagTitle": "Como comprar",
+        "text": "Como comprar"
+      }
+    }
+  },
+  "menu-item#footer-meus-pedidos": {
+    "props": {
+      "id": "menu-item-footer-meus-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-legal": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-terms-condicoes",
+      "menu-item#footer-politicas-entrega",
+      "menu-item#footer-devolucoes",
+      "menu-item#footer-link-personalizado"
+    ]
+  },
+  "rich-text#footer-legal": {
+    "props": {
+      "text": "Termos",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "menu-item#footer-terms-condicoes": {
+    "props": {
+      "id": "menu-item-footer-terms-condicoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/centro-de-ajuda#terms-e-condicoes",
+        "noFollow": true,
+        "tagTitle": "Termos e condições",
+        "text": "Termos e condições"
+      }
+    }
+  },
+  "menu-item#footer-politicas-entrega": {
+    "props": {
+      "id": "menu-item-footer-politicas-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/centro-de-ajuda",
+        "noFollow": true,
+        "tagTitle": "Políticas de Entrega",
+        "text": "Políticas de Entrega"
+      }
+    }
+  },
+  "menu-item#footer-devolucoes": {
+    "props": {
+      "id": "menu-item-footer-devolucoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/centro-de-ajuda",
+        "noFollow": true,
+        "tagTitle": "Devoluções",
+        "text": "Devoluções"
+      }
+    }
+  },
+  "menu-item#footer-link-personalizado": {
+    "title": "Link Personalizado",
+    "props": {
+      "id": "menu-item-footer-link-personalizado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-navegacao": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-lojas"
+    ]
+  },
+  "rich-text#footer-navegacao": {
+    "props": {
+      "text": "Navegação",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "menu-item#footer-lojas": {
+    "props": {
+      "id": "menu-item-footer-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": true,
+        "tagTitle": "Lojas",
+        "text": "Lojas"
+      }
+    }
+  },
+  // MOBILE 
+  "menu-item#footer-conta-mobile": {
+    "props": {
+      "id": "menu-item-footer-conta-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Conta",
+        "text": "Conta"
+      },
+      "blockClass": "menu-mobile-footer"
+    },
+    "blocks": [
+      "submenu.accordion#footer-conta-mobile"
+    ]
+  },
+  "submenu.accordion#footer-conta-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-conta"
+    ]
+  },
+  "menu-item#footer-servico-consumidor-mobile": {
+    "props": {
+      "id": "menu-item-footer-servico-consumidor-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Serviço ao consumidor",
+        "text": "Serviço ao consumidor"
+      },
+      "blockClass": "menu-mobile-footer"
+    },
+    "blocks": [
+      "submenu.accordion#footer-servico-consumidor-mobile"
+    ]
+  },
+  "submenu.accordion#footer-servico-consumidor-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-servico-consumidor"
+    ]
+  },
+  "menu-item#footer-legal-mobile": {
+    "props": {
+      "id": "menu-item-footer-legal-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Termos",
+        "text": "Termos"
+      },
+      "blockClass": "menu-mobile-footer"
+    },
+    "blocks": [
+      "submenu.accordion#footer-legal-mobile"
+    ]
+  },
+  "submenu.accordion#footer-legal-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-legal"
+    ]
+  },
+  "menu-item#footer-navegacao-mobile": {
+    "props": {
+      "id": "menu-item-footer-navegacao-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Navegação",
+        "text": "Navegação"
+      },
+      "blockClass": "menu-mobile-footer"
+    },
+    "blocks": [
+      "submenu.accordion#footer-navegacao-mobile"
+    ]
+  },
+  "submenu.accordion#footer-navegacao-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-navegacao"
+    ]
+  }
+}

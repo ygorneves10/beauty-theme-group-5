@@ -1,3 +1,7 @@
+:global(.vtex-search-result-3-x-gallery){
+  padding-left: 0;
+}
+
 :focus {
     outline: none !important;
 }
