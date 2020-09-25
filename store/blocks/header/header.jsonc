@@ -19,7 +19,7 @@
   },
   "sticky-layout#4-desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-header-desk"
     },
     "children": [
       "flex-layout.row#4-desktop"
@@ -97,13 +97,12 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://i.imgur.com/O1SJtMR.png",
       "width": "180"
     }
   },
   "header-layout.mobile": {
     "children": [
-      // "sticky-layout#1-mobile",
       "flex-layout.row#1-mobile",
       "flex-layout.row#2-mobile"
     ]
@@ -111,13 +110,15 @@
   "sticky-layout#1-mobile": {
     "children": [
       "flex-layout.row#1-mobile"
-    ]
+    ],
+    "props": {
+      "blockClass": "sticky-header-mob"
+    }
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "logo#mobile",
-      "minicart.v2"
+      "flex-layout.col#col-mob-header-1",
+      "flex-layout.col#col-mob-header-2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -125,6 +126,24 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "flex-layout.col#col-mob-header-1": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header-mob-logo"
+    },
+    "children": [
+      "drawer",
+      "logo#mobile"
+    ]
+  },
+  "flex-layout.col#col-mob-header-2": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "minicart.v2"
+    ]
   },
   "flex-layout.row#2-mobile": {
     "children": [
@@ -141,7 +160,6 @@
   },
   "menu#drawer": {
     "children": [
-      // "login",
       "menu-item#makeup",
       "menu-item#hair",
       "menu-item#perfume"
@@ -155,7 +173,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://i.imgur.com/O1SJtMR.png",
       "width": "70"
     }
   }
