@@ -64,6 +64,7 @@
     justify-content: space-between;
     padding: 15px 20px 15px 10px;
     background-color: #ffffff;
+    width: 95%;
 }
 
 .flexRowContent--main-header-desktop {
