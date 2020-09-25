@@ -1,0 +1,162 @@
+{
+    "responsive-layout.desktop#categories-home": {
+        "children": [
+            "flex-layout.row#categories-home"
+        ]
+    },
+    "flex-layout.row#categories-home": {
+        "children": [
+            "flex-layout.col#categories-home"
+        ],
+        "props": {
+            "blockClass": "categories-home"
+        }
+    },
+    "flex-layout.col#categories-home": {
+        "children": [
+            "rich-text#categories-home-title",
+            "flex-layout.row#categories-home-1"
+        ]
+    },
+    "rich-text#categories-home-title": {
+        "props": {
+            "text": "Escolha por aqui",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+        }
+    },
+    "flex-layout.row#categories-home-1": {
+        "children": [
+            "flex-layout.col#categories-home-1",
+            "flex-layout.col#categories-home-2",
+            "flex-layout.col#categories-home-3",
+            "flex-layout.col#categories-home-4"
+        ],
+        "props": {
+            "blockClass": "categories-home-1"
+        }
+    },
+    "flex-layout.col#categories-home-1": {
+        "children": [
+            "image#categories-home-1",
+            "rich-text#categories-home-1"
+        ]
+    },
+    "image#categories-home-1": {
+        "title": "img-categorie-1",
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#categories-home-1": {
+        "title": "text-categorie-1",
+        "props": {
+            "text": "categorie 1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categories-home"
+        }
+    },
+    "flex-layout.col#categories-home-2": {
+        "children": [
+            "image#categories-home-2",
+            "rich-text#categories-home-2"
+        ]
+    },
+    "image#categories-home-2": {
+        "title": "img-categorie-2",
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#categories-home-2": {
+        "title": "text-categorie-2",
+        "props": {
+            "text": "categorie 2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categories-home"
+        }
+    },
+    "flex-layout.col#categories-home-3": {
+        "children": [
+            "image#categories-home-3",
+            "rich-text#categories-home-3"
+        ]
+    },
+    "image#categories-home-3": {
+        "title": "img-categorie-3",
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#categories-home-3": {
+        "title": "text-categorie-3",
+        "props": {
+            "text": "categorie 3",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categories-home"
+        }
+    },
+    "flex-layout.col#categories-home-4": {
+        "children": [
+            "image#categories-home-4",
+            "rich-text#categories-home-4"
+        ]
+    },
+    "image#categories-home-4": {
+        "title": "img-categorie-4",
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#categories-home-4": {
+        "title": "text-categorie-4",
+        "props": {
+            "text": "categorie 4",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categories-home"
+        }
+    },
+    "responsive-layout.mobile#categories-home": {
+        "children": [
+            "flex-layout.row#slide-categories-home"
+        ]
+    },
+    "flex-layout.row#slide-categories-home": {
+        "children": [
+            "flex-layout.col#slide-categories-home"
+        ],
+        "props": {
+            "blockClass": "categories-home"
+        }
+    },
+    "flex-layout.col#slide-categories-home": {
+        "children": [
+            "rich-text#categories-home-title",
+            "slider-layout#categories-home"
+        ]
+    },
+    "slider-layout#categories-home": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "always",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "flex-layout.col#categories-home-1",
+            "flex-layout.col#categories-home-2",
+            "flex-layout.col#categories-home-3",
+            "flex-layout.col#categories-home-4"
+        ]
+    }
+}

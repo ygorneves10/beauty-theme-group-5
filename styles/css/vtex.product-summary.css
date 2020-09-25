@@ -1,0 +1,12 @@
+.container :global(.vtex-button) {
+    max-width: 200px;
+    margin: 10px auto 0;
+}
+
+.nameContainer {
+    padding: 20px 0;
+}
+
+.priceContainer, .sellingPriceContainer {
+    padding: 0;
+}
