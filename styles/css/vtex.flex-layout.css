@@ -1,0 +1,15 @@
+.flexRow--categories-home, .flexRow--shelf-home, .flexRow--banner-full-home {
+    margin-top: 40px;
+}
+
+.flexRow--shelf-home-2 {
+    margin-bottom: 40px;
+}
+
+.flexRow--categories-home-1 {
+    padding: 0 45px;
+}
+
+.flexRowContent--categories-home-1 .stretchChildrenWidth:not(:last-child) {
+    margin-right: 15px;
+}

@@ -1,0 +1,156 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#banner-home",
+      "responsive-layout.desktop#categories-home",
+      "responsive-layout.mobile#categories-home",
+      "flex-layout.row#banner-full-home-1",
+      "flex-layout.row#shelf-home",
+      "flex-layout.row#banner-full-home-2",
+      "flex-layout.row#shelf-home-2"
+    ]
+  },
+  "list-context.image-list#banner-home": {
+    "children": [
+      "slider-layout#banner-home"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-home"
+    }
+  },
+  "flex-layout.row#shelf-home": {
+    "children": [
+      "flex-layout.col#shelf-home"
+    ],
+    "props": {
+      "blockClass": "shelf-home"
+    }
+  },
+  "flex-layout.col#shelf-home": {
+    "children": [
+      "rich-text#shelf-home-title",
+      "list-context.product-list#shelf-home"
+    ]
+  },
+  "rich-text#shelf-home-title": {
+    "props": {
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "list-context.product-list#shelf-home": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "shelf-home"
+    }
+  },
+  "flex-layout.row#banner-full-home-1": {
+    "props": {
+      "blockClass": "banner-full-home"
+    },
+    "children": [
+      "info-card#banner-full-home-1"
+    ]
+  },
+  "info-card#banner-full-home-1": {
+    "title": "banner-full-home",
+    "props": {
+      "callToActionMode": "none",
+      "blockClass": "image-full"
+    }
+  },
+  "flex-layout.row#banner-full-home-2": {
+    "props": {
+      "blockClass": "banner-full-home"
+    },
+    "children": [
+      "info-card#banner-full-home-2"
+    ]
+  },
+  "info-card#banner-full-home-2": {
+    "title": "banner-full-home",
+    "props": {
+      "callToActionMode": "none",
+      "blockClass": "image-full"
+    }
+  },
+  "flex-layout.row#shelf-home-2": {
+    "children": [
+      "flex-layout.col#shelf-home-2"
+    ],
+    "props": {
+      "blockClass": [
+        "shelf-home",
+        "shelf-home-2"
+      ]
+    }
+  },
+  "flex-layout.col#shelf-home-2": {
+    "children": [
+      "rich-text#shelf-home-title-2",
+      "list-context.product-list#shelf-home-2"
+    ]
+  },
+  "rich-text#shelf-home-title-2": {
+    "props": {
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "list-context.product-list#shelf-home-2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}
