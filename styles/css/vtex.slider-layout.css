@@ -1,0 +1,17 @@
+.sliderLayoutContainer--shelf, .sliderTrackContainer--shelf {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.sliderArrows--shelf {
+    margin: 0;
+    padding: 10px;
+    border: solid #eee thin;
+    border-radius: 50%;
+}
+
+.caretIcon--shelf {
+    color: #555;
+    width: 20px;
+    height: 20px;
+}

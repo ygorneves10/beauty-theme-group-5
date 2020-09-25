@@ -1,10 +1,77 @@
+:focus {
+    outline: none !important;
+}
+
+:global(.vtex-button) {
+    border-radius: 0;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.infoCardImageContainer--image-full {
+    font-size: 0;
+    width: 100%;
+}
+
+.infoCardImage--image-full {
+    width: 100%;
+}
+
+.infoCardTextContainer--image-full {
+    display: none;
+}
+
+.imageElementLink--banner-home, .imageElement--banner-home {
+    width: 100%;
+}
+
 .thumbImg {
-	max-width: 60px;
+    max-width: 60px;
 }
+
 .carouselGaleryThumbs {
-	max-width: 60px;
+    max-width: 60px;
 }
+
 .carouselThumbBorder {
-	border: 0.5px solid #9b1783;
-	border-bottom: 2px solid #9b1783;
+    border: 0.5px solid #9b1783;
+    border-bottom: 2px solid #9b1783;
+}
+
+.productBrandName {
+    color: #9b1783;
+}
+
+.frameAround, .skuSelectorInternalBox {
+    border-radius: 0;
+}
+
+/* HEADER */
+
+.logoContainer{
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) .logoLink{
+    width: 70vw;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border-top: 1px solid #9B9B9B;
+}
+
+@media(min-width: 1024px){
+    .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-bottom: 1px solid #9B9B9B;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}
+
 }
