@@ -22,3 +22,20 @@
 .imageElementLink--banner-home, .imageElement--banner-home {
     width: 100%;
 }
+
+.thumbImg {
+    max-width: 60px;
+}
+
+.carouselGaleryThumbs {
+    max-width: 60px;
+}
+
+.carouselThumbBorder {
+    border: 0.5px solid #9b1783;
+    border-bottom: 2px solid #9b1783;
+}
+
+.productBrandName {
+    color: #9b1783;
+}
