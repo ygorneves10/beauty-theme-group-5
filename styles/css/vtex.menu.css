@@ -8,7 +8,9 @@
         margin: 0 50px;
     }
 
-    .styledLinkContent{
-        text-transform: uppercase;
+    .styledLinkContent:hover{
+        font-weight: bold;
+        transition: .3s all ease-in-out;
+        
     }
 }

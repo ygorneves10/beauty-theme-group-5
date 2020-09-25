@@ -89,7 +89,11 @@
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ],
       "showInColor": true
     }
   },
@@ -199,7 +203,7 @@
   },
   "footer-row#1-mobile": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "flex-layout.row#1-mobile-footer"
     ],
     "props": {
       "blockClass": [
@@ -208,7 +212,7 @@
       ]
     }
   },
-  "flex-layout.row#1-mobile": {
+  "flex-layout.row#1-mobile-footer": {
     "children": [
       "flex-layout.col#1-mobile-1",
       "flex-layout.col#1-mobile-2"
